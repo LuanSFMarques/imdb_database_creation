@@ -12,6 +12,13 @@ COPY movies_stars_dim
 FROM 'D:\Study\Programming\By_type\Data_Analysis\imdb_movies_DA\csv_tables\movie_star_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
+COPY genre_dim
+FROM 'D:\Study\Programming\By_type\Data_Analysis\imdb_movies_DA\csv_tables\genres_dim.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+
+COPY movies_genre_dim
+FROM 'D:\Study\Programming\By_type\Data_Analysis\imdb_movies_DA\csv_tables\movie_genre_dim.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 
 
