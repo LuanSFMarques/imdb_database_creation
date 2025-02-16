@@ -1,5 +1,5 @@
 # Building a PostgreSQL Database from IMDb Movies CSV Data
-
+![Project Cover](images/cover.png)
 ## Introduction
 This project was developed to gain a deeper understanding of database infrastructure design, with a particular focus on PostgreSQL. It provides an opportunity to explore key concepts in data modeling, relational database design, and performance optimization.
 
