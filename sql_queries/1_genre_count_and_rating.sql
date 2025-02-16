@@ -11,4 +11,4 @@ WHERE
 GROUP BY
     genre_name
 ORDER BY
-    number_of_movies DESC;
+    genre_average_rating DESC;
